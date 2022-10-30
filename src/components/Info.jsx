@@ -1,5 +1,4 @@
 import React from 'react'
-import image from '../assets/Chandrasekar_image.jpg'
 import {FaLinkedin} from 'react-icons/fa'
 import { MdMail } from "react-icons/md";
 
@@ -7,7 +6,6 @@ import { MdMail } from "react-icons/md";
 export default function Info(){
     return(
         <main>
-            <img src={image} alt="My Image" />
             <h3>Chandrasekar R</h3>
             <h4>Frontend Developer</h4>
             <p>chandrasekar.website</p>
