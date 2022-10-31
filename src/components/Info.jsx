@@ -5,7 +5,7 @@ import { MdMail } from "react-icons/md";
 
 export default function Info(){
     return(
-        <main>
+        <main className='infopart'>
             <h3>Chandrasekar R</h3>
             <h4>Frontend Developer</h4>
             <p>chandrasekar.website</p>

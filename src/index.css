@@ -1,10 +1,50 @@
 body{
+    box-sizing: border-box;
     background-color: #23252C;
     color: #DCDCDC;
+    text-align:center;
+    width: 317px;
+    height: 780px;
+    margin:0 auto;
+    padding-top: 0px;
 }
 
 img{
-    width: 317px;
     height: 317px;
-    border-radius: 10px 10px 0px 0px;
+    width: 317px;
+    padding: 0px;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.main{
+    width: 317px;
+    height: 780px;
+    background: #1A1B21;
+    text-align: center;
+    border-top: none;
+}
+
+
+.infopart >h3 {
+    width: 178.06px;
+    height: 25.81px;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 18px auto 0 auto;
+
+}
+
+.infopart >h4 {
+    margin: 0px;
+}
+
+.infopart >p {
+    margin: 0px;
+}
+
+
+.imagesection{
+    padding-bottom:0px;
+    margin-bottom: 0px;
 }

@@ -8,13 +8,12 @@ import MyImage from './components/MyImage'
 
 export default function App(){
     return (
-  <div>
-    <MyImage />
-    <Info />
-    <About />
-    <Interests />
-    <Footerpart />
-
-</div>
+    <div className='main'>
+        <MyImage />
+        <Info/>
+        <About />
+        <Interests />
+        <Footerpart />
+    </div>
     )
 }
