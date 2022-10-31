@@ -8,11 +8,15 @@ import MyImage from './components/MyImage'
 
 export default function App(){
     return (
-    <div className='main'>
-        <MyImage />
-        <Info/>
-        <About />
-        <Interests />
+    <div>
+        <div className='main'>
+            <MyImage />
+            <Info/>
+            <div className='aboutint'>
+            <About />
+            <Interests />
+            </div>
+        </div>
         <Footerpart />
     </div>
     )

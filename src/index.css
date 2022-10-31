@@ -4,9 +4,10 @@ body{
     color: #DCDCDC;
     text-align:center;
     width: 317px;
-    height: 780px;
-    margin:0 auto;
+    height: 800px;
+    margin:44px auto;
     padding-top: 0px;
+    font-family: 'Inter', sans-serif ;
 }
 
 img{
@@ -19,7 +20,6 @@ img{
 
 .main{
     width: 317px;
-    height: 780px;
     background: #1A1B21;
     text-align: center;
     border-top: none;
@@ -27,7 +27,7 @@ img{
 
 
 .infopart >h3 {
-    width: 178.06px;
+    width: 290.06px;
     height: 25.81px;
     font-weight: 700;
     font-size: 25px;
@@ -36,11 +36,27 @@ img{
 }
 
 .infopart >h4 {
-    margin: 0px;
+    margin: 3px auto;
+    width: 178.06px;
+    height: 14.19px;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+    padding: 4px 20px;
+
 }
 
-.infopart >p {
-    margin: 0px;
+.infopart >h5 {
+    margin: 4px auto 15px auto;
+    width: 200px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #F5F5F5;
+    padding: 1px 0px;
+    text-align: center;
 }
 
 
@@ -48,3 +64,114 @@ img{
     padding-bottom:0px;
     margin-bottom: 0px;
 }
+
+.buttonsclass{
+    display: flex;
+    justify-content: center;
+}
+
+.buttensclass > a{
+    text-decoration: none;
+}
+
+i{
+    padding: none;
+    margin:none;
+}
+
+
+
+.mailbutton{
+    box-sizing: border-box;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-right: 8.5px;
+    color: #374151;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.linkedinbutton{
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    border: none;
+    width: 115px;
+    height: 34px;
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-left: 8.5px;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.aboutint{
+    margin: 33px 35px 0px 35px;
+}
+
+.about >h2, .interests >h2{
+    width: 242.71px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 12px;
+}
+
+.about > p, .interests > p{
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    font-weight: 400;
+    font-size: 10.624px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin: 0;
+    padding: 0 0 20px 0;
+    text-align: justify;
+}
+
+.footers{
+    background: #161619;
+    height: 64px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 73px;
+    padding-right: 73px;
+    justify-content: space-between;
+}
+
+.footers >a > i{
+    size: 15px;
+    background: #918E9B;
+    padding: 5px 5px 1px 5px;
+    margin: 0px;
+    color: #161619;
+    border-radius: 3px;
+    gap:24px;
+}
+
